@@ -179,6 +179,7 @@
             this.txtResultado.ForeColor = System.Drawing.Color.Red;
             this.txtResultado.Location = new System.Drawing.Point(266, 372);
             this.txtResultado.Name = "txtResultado";
+            this.txtResultado.ReadOnly = true;
             this.txtResultado.Size = new System.Drawing.Size(187, 30);
             this.txtResultado.TabIndex = 10;
             this.txtResultado.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
